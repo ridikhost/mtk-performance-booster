@@ -1,6 +1,6 @@
 # MediaTek Performance Booster (KernelSU / Magisk Module)
 
-A lightweight, non-destructive system script module designed to force MediaTek Helio and Dimensity processors into high-performance mode post-boot. Ideal for devices running late-loading root environments (such as LKM / DirtyFrag / KernelSU).
+A lightweight, non-destructive system script module designed to force MediaTek Helio and Dimensity processors into high-performance mode post-boot. Ideal for devices running late-loading root environments (such as LKM / DirtyFrag / KernelSU) (also works on normally rooted devices).
 
 ---
 
