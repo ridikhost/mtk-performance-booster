@@ -44,22 +44,32 @@ If you want to trigger or test the script immediately in real-time without reboo
    sh /sdcard/service.sh```
 You will see real-time console logs confirming the successful application of the CPU governor and GPU boost.
 
+---
+
 ## ⚙️  How It Works (Technical Details)
 **Upon system startup, the script waits for the Android boot sequence to finish (sys.boot_completed = 1). Once stable, it iterates through all core scaling directories:**
 
+---
+
 ```Bash
-/sys/devices/system/cpu/cpu*/cpufreq/scaling_governor```
+/sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+```
 **And applies the performance profile. If available, it also triggers the MediaTek GED node:**
 
 ```Bash
-echo "1" > /sys/module/ged/parameters/gx_boost```
+echo "1" > /sys/module/ged/parameters/gx_boost
+```
+---
+
 ## 🛡️  Troubleshooting & Safety
 **Safe from Bootloops: Since this module utilizes post-boot script execution via KernelSU/Magisk, it cannot cause permanent bootloops. If an issue occurs, simply reboot your device into Safe Mode or disable the module inside KernelSU.**
 
 **Logs: You can check the execution logs at any time via logcat:**
 
 ```Bash
-logcat -s MTK_Perf```
+logcat -s MTK_Perf
+```
+---
 ## 📄 License
 **This project is open-source and available under the MIT License.**
 
