@@ -1,6 +1,6 @@
 # MediaTek Performance Booster (KernelSU / Magisk Module)
 
-## ⚠️ WARNING! THE MODULE CURRENTLY ISNT WORKING! I AM WORKING ON A FIXED VERSION.
+## ⚠️ THIS PROJECT IS CURRENTLY A WORK IN PROGRESS CONCEPT.
 A lightweight, non-destructive system script module designed to force MediaTek Helio and Dimensity processors into high-performance mode post-boot. Ideal for devices running late-loading root environments (such as LKM / DirtyFrag / KernelSU) (also works on normally rooted devices).
 
 ---
