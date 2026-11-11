@@ -1,0 +1,6 @@
+id=mtk_performance_booster
+name=MediaTek Performance Booster
+version=v1.0
+versionCode=1
+author=SatsumaPL
+description=Forces MediaTek CPU governors to performance mode and disables conservative throttling after boot.
